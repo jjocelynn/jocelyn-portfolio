@@ -1,7 +1,15 @@
 import React from "react";
 import profilePicture from "../assets/images/webDeveloperProfilePicture.jpeg";
+import arrow from "../assets/images/down-arrow.gif";
 
 export default function About() {
+  const handleClick = () => {
+    const targetElement = document.getElementById("arrow");
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <section id="introContainer">
@@ -13,7 +21,14 @@ export default function About() {
         <section id="introImage">
           <img src={profilePicture} alt="portrait of a web developer"></img>
         </section>
-      </section>{" "}
+      </section>
+      <img
+        src={arrow}
+        alt="down arrow gif"
+        href="#about"
+        onClick={handleClick}
+        id="arrow"
+      ></img>
       <section id="about">
         <h3>ABOUT</h3>
         <p>

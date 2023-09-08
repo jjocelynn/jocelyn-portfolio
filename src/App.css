@@ -60,6 +60,8 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width: 90%;
+  margin: 65px 0;
 }
 
 #introText,
@@ -81,18 +83,30 @@ a {
   color: var(--secondary);
 }
 
-#introImage img {
+#introImage {
   max-width: 100%;
   display: flex;
   justify-content: right;
-  border-radius: 48% 48% 3% 3%;
+}
+
+#introImage img {
+  width: 70%;
+  border-radius: 50% 50% 3% 3%;
+}
+
+#arrow {
+  width: 7%;
+  margin-top: 50px;
 }
 
 /* ABOUT SECTION */
+#about {
+  margin: 100px 0;
+}
 
 #about p {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 27px;
 }
 
 /* RESUME SECTION */
