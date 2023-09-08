@@ -101,15 +101,30 @@ a {
   width: 100%;
 }
 
-#proficiencies {
-  border: solid var(--secondary);
-  padding: 55px;
+h3 {
+  margin: 0px;
+}
+
+#proficiencies,
+#resume {
+  border: solid var(--secondary) 2px;
   display: flex;
   flex-direction: row;
 }
 
-.icon {
-  width: 15vw;
+h5,
+ul {
+  font-size: 20px;
+  margin: 2px;
+  line-height: normal;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.resumeIcon {
+  width: 180px;
   height: fit-content;
 }
 
@@ -117,4 +132,34 @@ a {
   display: flex;
   flex-direction: row;
   flex: 1;
+  justify-content: space-around;
+  padding: 55px;
+  font-size: 20px;
+  align-items: center;
+}
+
+#backend {
+  text-align: left;
+}
+
+#resumeIcon {
+  width: 90px;
+}
+
+#resume {
+  justify-content: center;
+  align-items: center;
+  padding: 55px;
+  margin-top: 30px;
+}
+
+#resume a {
+  background-color: var(--secondary);
+  padding: 15px 10%;
+  font-size: 20px;
+  border: none;
+  border-radius: 7px;
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
 }

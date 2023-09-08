@@ -1,6 +1,7 @@
 import frontendIcon from "../assets/images/frontendIcon.PNG";
 import backendIcon from "../assets/images/backendIcon.PNG";
 import resumeIcon from "../assets/images/resumeIcon.PNG";
+import resumePDF from "../assets/JocelynChiu_Resume2023.pdf";
 
 export default function Resume() {
   return (
@@ -8,8 +9,12 @@ export default function Resume() {
       <h3>AT A GLANCE</h3>
       <section id="proficiencies">
         <section id="frontend" className="proficienciesCategories">
-          <img className="icon" src={frontendIcon} alt="frontend icon"></img>
-          <div>
+          <img
+            src={frontendIcon}
+            alt="frontend icon"
+            className="resumeIcon"
+          ></img>
+          <div className="resumeText">
             <h5>Frontend Proficiencies</h5>
             <ul>
               <li>HTML</li>
@@ -23,8 +28,12 @@ export default function Resume() {
           </div>
         </section>
         <section id="backend" className="proficienciesCategories">
-          <img src={backendIcon} alt="backend icon" className="icon"></img>
-          <div>
+          <img
+            src={backendIcon}
+            alt="backend icon"
+            className="resumeIcon"
+          ></img>
+          <div className="resumeText">
             <h5>Backend Proficiencies</h5>
             <ul>
               <li>API's</li>
@@ -39,8 +48,10 @@ export default function Resume() {
         </section>
       </section>
       <section id="resume">
-        <img src={resumeIcon} alt="resume icon"></img>
-        <button>View my Resume</button>
+        <img src={resumeIcon} alt="resume icon" id="resumeIcon"></img>
+        <a href={resumePDF} target="blank">
+          View my resumé
+        </a>
       </section>
     </section>
   );
