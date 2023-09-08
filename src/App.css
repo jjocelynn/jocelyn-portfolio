@@ -1,0 +1,120 @@
+:root {
+  --primary: white;
+  --secondary: #F5EE84
+}
+
+#pageBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13vw;
+  margin-right: 13vw;
+
+}
+
+h3 {
+  color: var(--secondary);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+/* NAV BAR */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* INTRO SECTION */
+#introContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#introText,
+#introImage {
+  flex: 1;
+  /* Equal width for both text and image containers */
+}
+
+#introText p {
+  font-size: 2vw;
+  padding: 0px;
+  margin: 10px;
+}
+
+#introText h2 {
+  font-size: 6vw;
+  padding: 0px;
+  margin: 0px;
+  color: var(--secondary);
+}
+
+#introImage img {
+  max-width: 100%;
+  display: flex;
+  justify-content: right;
+  border-radius: 48% 48% 3% 3%;
+}
+
+/* ABOUT SECTION */
+
+#about p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* RESUME SECTION */
+
+#resumeOverview {
+  width: 100%;
+}
+
+#proficiencies {
+  border: solid var(--secondary);
+  padding: 55px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  width: 15vw;
+  height: fit-content;
+}
+
+.proficienciesCategories {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
