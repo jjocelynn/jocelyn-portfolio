@@ -56,7 +56,12 @@ export default function Work() {
     <div>
       {data.map((item) => (
         <>
-          <img src={item.photo} alt={`${item.title} still`} id={``} />
+          <img
+            src={item.photo}
+            alt={`${item.title} still`}
+            id={``}
+            className="workImg"
+          />
           <section id={`workText-${item.id}`} key={item.id}>
             <div className="workTitle">
               <h5>{item.title}</h5>

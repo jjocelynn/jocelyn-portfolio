@@ -1,23 +1,22 @@
 :root {
   --primary: white;
-  --secondary: #F5EE84
+  --secondary: #f5ee84;
+  --background: #1e1e1e;
 }
 
 #pageBody {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin-left: 13vw;
   margin-right: 13vw;
-
 }
 
 h3 {
   color: var(--secondary);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 20px 0;
   font-size: 20px;
+  margin: 0;
 }
 
 /* NAV BAR */
@@ -29,6 +28,8 @@ header {
   margin: 50px;
   padding-left: 30px;
   padding-right: 30px;
+  position: sticky;
+  background: var(--background);
 }
 
 h1 {
@@ -53,6 +54,11 @@ a {
   text-decoration: none;
 }
 
+.active {
+  text-shadow: 0px 0px 10px var(--secondary);
+  color: var(--secondary);
+  transition: all 0.2s ease-in-out;
+}
 
 /* INTRO SECTION */
 #introContainer {
@@ -113,10 +119,7 @@ a {
 
 #resumeOverview {
   width: 100%;
-}
-
-h3 {
-  margin: 0px;
+  padding-bottom: 100px;
 }
 
 #proficiencies,
@@ -179,3 +182,67 @@ ul {
 }
 
 /* WORK SECTION */
+.workImg {
+  width: 50%;
+}
+/* CONTACT SECTION */
+#contact {
+  width: 100%;
+  background: var(--background);
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+#contact section {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  justify-content: left;
+}
+
+input,
+textarea,
+#contact button {
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 7px;
+  margin: 5px 0;
+  font-size: 15px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+input,
+textarea {
+  background: black;
+}
+
+#contact button {
+  background: grey;
+  width: 120px;
+  padding: 7px;
+  margin-top: 10px;
+}
+
+#contact p {
+  padding: 0;
+  margin: 0;
+}
+
+/* FOOTER SECTION */
+footer {
+  background: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
