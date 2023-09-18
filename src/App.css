@@ -182,9 +182,79 @@ ul {
 }
 
 /* WORK SECTION */
-.workImg {
-  width: 50%;
+.projects {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
 }
+
+.imgContainer {
+  width: 52%;
+  position: relative;
+  margin: auto 20px;
+}
+
+.workImg {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  aspect-ratio: 16 / 9;
+}
+
+.workText {
+  width: 48%;
+  margin: 50px 20px;
+}
+
+.workTitle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.workTitle h5 {
+  white-space: nowrap;
+  flex: 1;
+}
+
+.workTitle hr {
+  width: 100%;
+  height: 0px;
+  margin: 0 20px;
+}
+.workButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.workButtons button {
+  border: none;
+  border-radius: 3px;
+  background: grey;
+  width: 120px;
+  padding: 7px;
+  margin: 20px;
+  color: white;
+  flex: 1;
+}
+
+/* WORK SECTION-VideoPlayerModal */
+dialog {
+  background: none;
+  border: none;
+  overflow: hidden;
+}
+.videoContainer {
+  width: 70vw;
+
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
 /* CONTACT SECTION */
 #contact {
   width: 100%;

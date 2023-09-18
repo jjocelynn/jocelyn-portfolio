@@ -29,12 +29,9 @@ export default function PageBody() {
 
   return (
     <>
-      <NavTabs
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      ></NavTabs>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <section id="pageBody">{renderPage()}</section>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }

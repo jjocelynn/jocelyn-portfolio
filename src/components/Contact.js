@@ -15,12 +15,15 @@ export default function Contact() {
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either name, email, or message
-    if (inputType === "name") {
-      setName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
+    switch (inputType) {
+      case "name":
+        setName(inputValue);
+        break;
+      case "email":
+        setEmail(inputValue);
+        break;
+      default:
+        setMessage(inputValue);
     }
   };
 
@@ -73,7 +76,7 @@ export default function Contact() {
         name="_redirect"
         type="hidden"
         value="http://localhost:3000/#intro" //replace this part once i publish.
-      ></input>
+      />
       <h3>CONTACT</h3>
       <section>
         <input
@@ -99,73 +102,10 @@ export default function Contact() {
           className="form-control"
           placeholder="type your message here!"
           rows="3"
-        ></textarea>
-        {errorMessage && (
-            <p className="error-text">{errorMessage}</p>
-        )}
+        />
+        {errorMessage && <p className="error-text">{errorMessage}</p>}
         <button type="submit">Submit</button>
       </section>
     </form>
   );
-}
-
-// export function Contact (){
-//   /*STEPS TO CREATE THIS CONACT SECTION
-//   1. make the html/jsx portion
-//     a. h2/3 Contact
-//     b. Get in touch
-//     c. Any questions or just want to say hi?
-//   */
-// }
-
-{
-  /* <form
-id="contact"
-action="https://formie.io/form/22464017-598d-45e0-887f-d846022b0fd1"
-method="POST"
->
-<h2>contact</h2>
-<article>
-  <form>
-    <div className="form-group">
-      <input
-        value={name}
-        name="name"
-        onChange={handleInputChange}
-        type="name"
-        className="form-control"
-        placeholder="name"
-      />
-    </div>
-    <div className="form-group">
-      <input
-        value={email}
-        name="email"
-        onChange={handleInputChange}
-        type="email"
-        className="form-control"
-        placeholder="email@example.com"
-      />
-    </div>
-    <div className="form-group">
-      <textarea
-        value={message}
-        name="message"
-        onChange={handleInputChange}
-        className="form-control"
-        placeholder="type your message here!"
-        rows="3"
-      ></textarea>
-    </div>
-    {errorMessage && (
-      <div>
-        <p className="error-text">{errorMessage}</p>
-      </div>
-    )}
-    <button type="submit" onClick={handleFormSubmit}>
-      Submit
-    </button>
-  </form>
-</article>
-</form> */
 }
