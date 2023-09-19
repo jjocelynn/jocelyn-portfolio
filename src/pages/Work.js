@@ -4,7 +4,8 @@ import codefolioImg from "../assets/images/codefolio.jpg";
 import wikiGoImg from "../assets/images/WikiGO-landing-page.jpg";
 import jdtVideo from "../assets/videos/JDT-Demo-Compressed.mp4";
 import codefolioVideo from "../assets/videos/Codefolio-Demo-Compressed.mp4";
-import VideoPlayerModal from "./VideoPlayerModal";
+import VideoPlayerModal from "../components/VideoPlayerModal";
+import ScrollToTop from "../components/ScrollToTop";
 
 const data = [
   {
@@ -82,7 +83,7 @@ export default function Work() {
         setVisible={setShowModal}
         content={modalContent}
       />
-      <h3>WORK</h3>
+      <h3 id="h3Work">WORK</h3>
       {data.map((item, index) => (
         <div className="projects">
           {/* if index is an even number, display the image before the text section */}
@@ -124,6 +125,7 @@ export default function Work() {
           )}
         </div>
       ))}
+      <ScrollToTop />
     </section>
   );
 }

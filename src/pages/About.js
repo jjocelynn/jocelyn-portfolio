@@ -1,6 +1,7 @@
 import React from "react";
 import profilePicture from "../assets/images/webDeveloperProfilePicture.jpeg";
 import arrow from "../assets/images/down-arrow.gif";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function About() {
   const handleClick = () => {
@@ -58,6 +59,7 @@ export default function About() {
           deliver exceptional digital experiences that inspire and engage!
         </p>
       </section>
+      <ScrollToTop />
     </>
   );
 }
