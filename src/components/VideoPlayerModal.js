@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import Ratio from "react-bootstrap/Ratio";
 
 /**
@@ -10,6 +10,7 @@ import Ratio from "react-bootstrap/Ratio";
 export default function VideoPlayerModal({ visible, setVisible, content }) {
   //react hook: create and interact with references to DOM elements or other React elements in functional components.
   const dialogRef = useRef();
+  const videoRef = useRef();
 
   // Run everytime visibility changes
   useEffect(() => {
@@ -19,6 +20,10 @@ export default function VideoPlayerModal({ visible, setVisible, content }) {
       dialogRef.current.close();
     }
   }, [visible]);
+
+  useEffect(() => {
+    videoRef.current?.load();
+  }, [content]);
 
   // when close button is clicked or when user clicks away from video
   const handleClose = () => {
@@ -30,7 +35,7 @@ export default function VideoPlayerModal({ visible, setVisible, content }) {
       {content ? (
         <div className="videoContainer" onBlur={handleClose}>
           <Ratio aspectRatio="16x9">
-            <video controls>
+            <video ref={videoRef} controls>
               <source src={content} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
