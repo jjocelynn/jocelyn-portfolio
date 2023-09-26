@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/jocelyn-portfolio/static/css/main.faee5e43.css",
-    "main.js": "/jocelyn-portfolio/static/js/main.fd915359.js",
+    "main.js": "/jocelyn-portfolio/static/js/main.1f6d3131.js",
     "static/media/Codefolio-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/Codefolio-Demo-Compressed.24db874081764c4834c9.mp4",
     "static/media/JDT-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/JDT-Demo-Compressed.882f309af3d9f7a7ca1e.mp4",
     "static/media/webDeveloperProfilePicture.jpeg": "/jocelyn-portfolio/static/media/webDeveloperProfilePicture.fadf5ce3cb08f3915da7.jpeg",
     "static/media/codefolio.jpg": "/jocelyn-portfolio/static/media/codefolio.8e4e1f8dd45acf13b319.jpg",
     "static/media/JDT-Events.jpg": "/jocelyn-portfolio/static/media/JDT-Events.703d2327bbcfb5896d12.jpg",
+    "static/media/Work-Day-Scheduler.png": "/jocelyn-portfolio/static/media/Work-Day-Scheduler.70f19a1addb34afac5b3.png",
     "static/media/WikiGO-landing-page.jpg": "/jocelyn-portfolio/static/media/WikiGO-landing-page.01c608f540bb480a1bd9.jpg",
+    "static/media/weather-dashboard.jpg": "/jocelyn-portfolio/static/media/weather-dashboard.473f2a42f22f1a71ccae.jpg",
     "static/media/JocelynChiu_Resume2023.pdf": "/jocelyn-portfolio/static/media/JocelynChiu_Resume2023.ca05564684a983a324f5.pdf",
     "static/media/resumeIcon.PNG": "/jocelyn-portfolio/static/media/resumeIcon.f4b282c63d90ae705e84.PNG",
     "static/media/frontendIcon.PNG": "/jocelyn-portfolio/static/media/frontendIcon.177c8fe6f648c25416e1.PNG",
@@ -18,10 +20,10 @@
     "static/media/linkedin.png": "/jocelyn-portfolio/static/media/linkedin.d4fb8835f520a8dc396a.png",
     "index.html": "/jocelyn-portfolio/index.html",
     "main.faee5e43.css.map": "/jocelyn-portfolio/static/css/main.faee5e43.css.map",
-    "main.fd915359.js.map": "/jocelyn-portfolio/static/js/main.fd915359.js.map"
+    "main.1f6d3131.js.map": "/jocelyn-portfolio/static/js/main.1f6d3131.js.map"
   },
   "entrypoints": [
     "static/css/main.faee5e43.css",
-    "static/js/main.fd915359.js"
+    "static/js/main.1f6d3131.js"
   ]
 }
