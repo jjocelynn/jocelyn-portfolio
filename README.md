@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Jocelyn's Coding Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Jocelyn's coding portfolio showcases the skills and talents she offers to potential employers. It contains an "about" section where you can get to know her, a "work" section showcasing a collection of her top works to date, a "contact" section, and a "resumé" section.
 
-In the project directory, you can run:
+## Deployed Application
 
-### `npm start`
+https://jjocelynn.github.io/jocelyn-portfolio/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Through a clean and intuitive interface, users can quickly navagate the page using the clickable links in the navagation bar (located at the top right when the page is fully expanded, and top center when the page width is less than 1007px).
 
-### `npm test`
+<!-- ![header and intro at full width vs at less than 1007px](./main/public/assets/images/header-and-intro.jpg) -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
 
-### `npm run build`
+Wireframe template by Rishabh Singh on Figma: https://www.figma.com/community/file/1079379594135318786
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Deploying a React project to Github Pages:
+https://github.com/gitname/react-gh-pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Icons used:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
 
-### `npm run eject`
+<a href="https://www.flaticon.com/free-icons/backend" title="backend icons">Backend icons created by Muhammad Ali - Flaticon</a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<a href="https://www.flaticon.com/free-icons/swipe-up" title="swipe up icons">Swipe up icons created by karthiks_18 - Flaticon</a>
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please refer to the LICENSE in the repo.
