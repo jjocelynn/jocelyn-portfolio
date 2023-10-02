@@ -35,6 +35,8 @@ Icons used:
 
 <a href="https://www.flaticon.com/free-icons/swipe-up" title="swipe up icons">Swipe up icons created by karthiks_18 - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Open menu icons created by Handicon - Flaticon</a>
+
 ## License
 
 Please refer to the LICENSE in the repo.

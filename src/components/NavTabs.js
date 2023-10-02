@@ -1,6 +1,34 @@
-import React from "react";
+import { React, useRef, useEffect } from "react";
+import menu from "../assets/images/menu.png";
 
 function NavTabs({ currentPage, handlePageChange }) {
+  const ul = useRef();
+
+  //onClick, nav menu will expand or close
+  function expandNav() {
+    if (ul.current.style.display === "flex") {
+      ul.current.style.display = "none";
+      
+    } else {
+      ul.current.style.display = "flex";
+    }
+  }
+
+  //when the page width is above 768px, the menu will be displayed in a row. when it is less, hide he menu
+  const handleResize = () => {
+    if (window.innerWidth > 768) {
+      ul.current.style.display = "flex";
+      ul.current.style.flexDirection = "row";
+    } else {
+      ul.current.style.display = "none";
+      ul.current.style.flexDirection = "column";
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+  });
+
   return (
     <header>
       <h1>
@@ -8,8 +36,14 @@ function NavTabs({ currentPage, handlePageChange }) {
           JOCELYN CHIU
         </a>
       </h1>
+      <img
+        src={menu}
+        id="menuIcon"
+        alt="collapsible menu icon"
+        onClick={expandNav}
+      />
       <nav>
-        <ul>
+        <ul ref={ul}>
           <li>
             <a
               href="#about" //link to "about" page when clicked
