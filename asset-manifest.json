@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jocelyn-portfolio/static/css/main.faee5e43.css",
-    "main.js": "/jocelyn-portfolio/static/js/main.1f6d3131.js",
+    "main.css": "/jocelyn-portfolio/static/css/main.c18d4daf.css",
+    "main.js": "/jocelyn-portfolio/static/js/main.fce12fad.js",
     "static/media/Codefolio-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/Codefolio-Demo-Compressed.24db874081764c4834c9.mp4",
     "static/media/JDT-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/JDT-Demo-Compressed.882f309af3d9f7a7ca1e.mp4",
     "static/media/webDeveloperProfilePicture.jpeg": "/jocelyn-portfolio/static/media/webDeveloperProfilePicture.fadf5ce3cb08f3915da7.jpeg",
@@ -19,11 +19,11 @@
     "static/media/down-arrow.gif": "/jocelyn-portfolio/static/media/down-arrow.561bd9b3422f727769f4.gif",
     "static/media/linkedin.png": "/jocelyn-portfolio/static/media/linkedin.d4fb8835f520a8dc396a.png",
     "index.html": "/jocelyn-portfolio/index.html",
-    "main.faee5e43.css.map": "/jocelyn-portfolio/static/css/main.faee5e43.css.map",
-    "main.1f6d3131.js.map": "/jocelyn-portfolio/static/js/main.1f6d3131.js.map"
+    "main.c18d4daf.css.map": "/jocelyn-portfolio/static/css/main.c18d4daf.css.map",
+    "main.fce12fad.js.map": "/jocelyn-portfolio/static/js/main.fce12fad.js.map"
   },
   "entrypoints": [
-    "static/css/main.faee5e43.css",
-    "static/js/main.1f6d3131.js"
+    "static/css/main.c18d4daf.css",
+    "static/js/main.fce12fad.js"
   ]
 }
