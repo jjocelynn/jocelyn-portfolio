@@ -55,7 +55,7 @@ export default function Work() {
               <hr />
             </div>
             <p>{item.description}</p>
-            <p>Key technologies: {item.technologies}</p>
+            <p id="keyTechnologies">Key technologies: {item.technologies}</p>
             <div className="workButtons">
               <button onClick={() => onViewDemo(item)}>View Demo</button>
               <button onClick={() => openRepo(item.repoLink)}>

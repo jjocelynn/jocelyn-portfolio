@@ -8,7 +8,6 @@ function NavTabs({ currentPage, handlePageChange }) {
   function expandNav() {
     if (ul.current.style.display === "flex") {
       ul.current.style.display = "none";
-      
     } else {
       ul.current.style.display = "flex";
     }
@@ -16,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
   //when the page width is above 768px, the menu will be displayed in a row. when it is less, hide he menu
   const handleResize = () => {
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 970) {
       ul.current.style.display = "flex";
       ul.current.style.flexDirection = "row";
     } else {
@@ -36,12 +35,14 @@ function NavTabs({ currentPage, handlePageChange }) {
           JOCELYN CHIU
         </a>
       </h1>
-      <img
-        src={menu}
-        id="menuIcon"
-        alt="collapsible menu icon"
-        onClick={expandNav}
-      />
+      <div id="menuDiv">
+        <img
+          src={menu}
+          id="menuIcon"
+          alt="collapsible menu icon"
+          onClick={expandNav}
+        />
+      </div>
       <nav>
         <ul ref={ul}>
           <li>

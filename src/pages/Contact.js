@@ -75,7 +75,7 @@ export default function Contact() {
       <input
         name="_redirect"
         type="hidden"
-        value="http://localhost:3000/#intro" //replace this part once i publish.
+        value="https://jjocelynn.github.io/jocelyn-portfolio/"
       />
       <h3>CONTACT</h3>
       <section>

@@ -11,6 +11,17 @@ import codefolioVideo from "../assets/videos/Codefolio-Demo-Compressed.mp4";
 
 export const data = [
   {
+    id: "wikigo",
+    title: "WikiGo",
+    description:
+      "WikiGO is a JavaScript based web application that combines MediaWiki and Mapbox API's. Together, a travel website is created that provides users with relevant information based on the city that is searched. WikiGO offers curious users a way to learn more about the history of a destination while being able to see exactly where it is on an interactive map below.",
+    technologies:
+      "JavaScript, jQuery HTML, CSS, Materialize, MapBox, MediaWiki.",
+    photo: wikiGoImg,
+    demoLink: "https://jjocelynn.github.io/WikiGo/",
+    repoLink: "https://github.com/jjocelynn/WikiGo",
+  },
+  {
     id: "jdt",
     title: "JDT EventWorks",
     description:
@@ -31,17 +42,6 @@ export const data = [
     photo: codefolioImg,
     video: codefolioVideo,
     repoLink: "https://github.com/MannyAulakh/Codefolio",
-  },
-  {
-    id: "wikigo",
-    title: "WikiGo",
-    description:
-      "WikiGO is a JavaScript based web application that combines MediaWiki and Mapbox API's. Together, a travel website is created that provides users with relevant information based on the city that is searched. WikiGO offers curious users a way to learn more about the history of a destination whilst being able to see exactly where it is on an interactive map below.",
-    technologies:
-      "JavaScript, jQuery HTML, CSS, Materialize, MapBox, MediaWiki.",
-    photo: wikiGoImg,
-    demoLink: "https://jjocelynn.github.io/WikiGo/",
-    repoLink: "https://github.com/jjocelynn/WikiGo",
   },
   {
     id: "weatherDashboard",

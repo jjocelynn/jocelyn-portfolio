@@ -7,6 +7,12 @@ export default function Resume() {
   return (
     <section id="resumeOverview">
       <h3>AT A GLANCE</h3>
+      <section id="resume">
+        <img src={resumeIcon} alt="resume icon" id="resumeIcon"></img>
+        <a href={resumePDF} target="blank">
+          View my resumé
+        </a>
+      </section>
       <section id="proficiencies">
         <section id="frontend" className="proficienciesCategories">
           <h5>Frontend Proficiencies</h5>
@@ -49,12 +55,6 @@ export default function Resume() {
             </div>
           </div>
         </section>
-      </section>
-      <section id="resume">
-        <img src={resumeIcon} alt="resume icon" id="resumeIcon"></img>
-        <a href={resumePDF} target="blank">
-          View my resumé
-        </a>
       </section>
     </section>
   );

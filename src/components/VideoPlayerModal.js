@@ -28,6 +28,7 @@ export default function VideoPlayerModal({ visible, setVisible, content }) {
   // when close button is clicked or when user clicks away from video
   const handleClose = () => {
     setVisible(false); //close the video modal
+    videoRef.current?.pause(); //pause on close
   };
 
   return (

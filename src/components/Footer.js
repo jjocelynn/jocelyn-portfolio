@@ -20,7 +20,7 @@ export default function Footer() {
           />
         </a>
       </div>
-      • coded by Jocelyn • last updated Sept 13, 2023 •
+      • coded by Jocelyn • last updated Oct 4, 2023 •
     </footer>
   );
 }
