@@ -285,6 +285,14 @@ video {
   height: auto;
 }
 
+.close {
+  width: 30px;
+  position: absolute;
+  right: 3px;
+  top: 0px;
+  opacity: 80%;
+}
+
 /* CONTACT SECTION */
 #contact {
   width: 100%;
@@ -351,11 +359,20 @@ footer {
 @media screen and (max-width: 970px) {
   #menuIcon {
     display: flex;
+    margin: 50px 80px 50px 0;
   }
 
   header {
     width: inherit;
     flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    margin: 50px;
+    margin-right: 0px;
+    padding: 0 30px;
   }
 
   nav {
@@ -367,11 +384,12 @@ footer {
     padding: 0;
     display: none;
     flex-direction: column;
+    margin-bottom: 50px;
   }
 
   nav ul li {
-    padding: 0;
-    border-bottom: 1px solid white;
+    padding: 10px 0;
+    border-bottom: 0.5px solid grey;
     transition: all 2s ease-out;
   }
 
@@ -382,22 +400,23 @@ footer {
 
   #introImage img {
     margin: auto;
-
+    width: 100%;
+    max-width: 475px;
   }
 
   #introText {
     text-align: center;
-    width: 75%;
     padding-top: 10px;
+    max-width: 475px;
   }
 
   #introText p {
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: left;
   }
 
   #introText h2 {
-    font-size: 9vw;
+    font-size: 10vw;
     text-align: left;
     padding-left: 10px;
   }
@@ -423,9 +442,18 @@ footer {
     margin-top: 16px;
   }
 
-  #resumeOverview {
-    min-width: 75%;
+  .videoContainer {
+    width: 90vw;
+    transition: all 2s ease-out;
+  }
 
+  #resumeOverview {
+    width: 100%;
+  }
+
+  #resume,
+  #proficiencies {
+    padding: 7%;
   }
 
   #proficiencies {
@@ -437,13 +465,17 @@ footer {
   }
 
   .listBody {
-    flex-direction: column;
     margin: 20px;
     width: inherit;
+    justify-content: space-evenly;
+  }
+
+  .resumeIcon {
+    max-width: 35%;
   }
 
   .resumeText {
-    width: 100%;
+    min-width: 200px;
   }
 
   #resume a {
@@ -462,6 +494,7 @@ footer {
 
   h1 {
     text-align: center;
+    margin: 50px 0 20px 0;
   }
 
   #menuDiv {
@@ -471,7 +504,17 @@ footer {
 
   #menuIcon {
     margin: auto;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
+  }
+
+  .videoContainer {
+    width: 100%;
+  }
+
+  .listBody {
+    flex-direction: column;
+    margin: 20px;
+    width: inherit;
   }
 
   #resume a {
@@ -479,5 +522,9 @@ footer {
     font-size: 16px;
     padding: 10px;
     transition: all 2s ease;
+  }
+
+  .resumeText {
+    width: 100%;
   }
 }

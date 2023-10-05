@@ -37,6 +37,8 @@ Icons used:
 
 <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Open menu icons created by Handicon - Flaticon</a>
 
+<a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by icon wind - Flaticon</a>
+
 ## License
 
 Please refer to the LICENSE in the repo.

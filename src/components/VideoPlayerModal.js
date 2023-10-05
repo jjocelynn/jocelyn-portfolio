@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import Ratio from "react-bootstrap/Ratio";
+import closeBtn from "../assets/images/closeButton.png";
 
 /**
  * Dscription
@@ -35,6 +36,12 @@ export default function VideoPlayerModal({ visible, setVisible, content }) {
     <dialog ref={dialogRef} className="video-dialog">
       {content ? (
         <div className="videoContainer" onBlur={handleClose}>
+          <img
+            class="close"
+            src={closeBtn}
+            onClick={handleClose}
+            alt="close video button"
+          />
           <Ratio aspectRatio="16x9">
             <video ref={videoRef} controls>
               <source src={content} type="video/mp4" />
