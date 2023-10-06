@@ -5,7 +5,6 @@ import Work from "../src/pages/Work";
 import Contact from "../src/pages/Contact";
 import Resume from "../src/pages/Resume";
 import Footer from "../src/components/Footer";
-import "./App.css";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("intro");

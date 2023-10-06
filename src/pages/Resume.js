@@ -1,7 +1,8 @@
-import frontendIcon from "../assets/images/frontendIcon.PNG";
-import backendIcon from "../assets/images/backendIcon.PNG";
-import resumeIcon from "../assets/images/resumeIcon.PNG";
+import frontendIcon from "../assets/images/icons/frontendIcon.PNG";
+import backendIcon from "../assets/images/icons/backendIcon.PNG";
+import resumeIcon from "../assets/images/icons/resumeIcon.PNG";
 import resumePDF from "../assets/JocelynChiu_Resume2023.pdf";
+import "../styling/Resume.css"
 
 export default function Resume() {
   return (

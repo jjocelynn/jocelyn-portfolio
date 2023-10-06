@@ -1,0 +1,124 @@
+/* RESUME SECTION */
+
+#resumeOverview {
+    max-width: inherit;
+    padding-bottom: 100px;
+}
+
+#proficiencies,
+#resume {
+    border: solid var(--secondary) 2px;
+    padding: 55px;
+    display: flex;
+}
+
+.listBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h5,
+ul {
+    font-size: 20px;
+    margin: 0;
+    padding: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.resumeIcon {
+    width: 15vw;
+    min-width: 100px;
+    height: fit-content;
+    padding-right: 20px;
+}
+
+.proficienciesCategories {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 20px;
+}
+
+#resumeIcon {
+    width: 6vw;
+    min-width: 70px;
+}
+
+#resume {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#resume a {
+    background-color: var(--secondary);
+    padding: 15px 10%;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 15px;
+    color: var(--tertiary);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 970px) {
+    #resumeOverview {
+        width: 100%;
+    }
+
+    #resume,
+    #proficiencies {
+        padding: 7%;
+    }
+
+    #proficiencies {
+        flex-direction: column;
+    }
+
+    .proficienciesCategories:first-child {
+        margin-bottom: 50px;
+    }
+
+    .listBody {
+        margin: 20px;
+        width: inherit;
+        justify-content: space-evenly;
+    }
+
+    .resumeIcon {
+        max-width: 35%;
+    }
+
+    .resumeText {
+        min-width: 200px;
+    }
+
+    #resume a {
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .listBody {
+        flex-direction: column;
+        margin: 20px;
+        width: inherit;
+    }
+
+    #resume a {
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        transition: all 2s ease;
+    }
+
+    .resumeText {
+        width: 100%;
+    }
+}

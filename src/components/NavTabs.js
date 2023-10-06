@@ -1,5 +1,6 @@
 import { React, useRef, useEffect } from "react";
-import menu from "../assets/images/menu.png";
+import menu from "../assets/images/icons/menu.png";
+import "../styling/NavTabs.css"
 
 function NavTabs({ currentPage, handlePageChange }) {
   const ul = useRef();

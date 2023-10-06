@@ -1,5 +1,6 @@
-import gitHubIcon from "../assets/images/github.png";
-import linkedInIcon from "../assets/images/linkedin.png";
+import gitHubIcon from "../assets/images/icons/github.png";
+import linkedInIcon from "../assets/images/icons/linkedin.png";
+import "../styling/Footer.css"
 
 export default function Footer() {
   return (

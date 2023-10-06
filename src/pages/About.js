@@ -1,7 +1,8 @@
 import React from "react";
 import profilePicture from "../assets/images/webDeveloperProfilePicture.jpeg";
-import arrow from "../assets/images/down-arrow.gif";
+import arrow from "../assets/images/icons/down-arrow.gif";
 import ScrollToTop from "../components/ScrollToTop";
+import "../styling/About.css"
 
 export default function About() {
   const handleClick = () => {

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styling/Contact.css"
 
 export default function Contact() {
   //create state variables for the input form

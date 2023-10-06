@@ -1,0 +1,36 @@
+/* WORK SECTION-VideoPlayerModal */
+dialog {
+    background: none;
+    border: none;
+    overflow: hidden;
+}
+
+.videoContainer {
+    width: 70vw;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    width: 30px;
+    position: absolute;
+    right: 3px;
+    top: 0px;
+    opacity: 80%;
+}
+
+@media screen and (max-width: 970px) {
+    .videoContainer {
+        width: 90vw;
+        transition: all 2s ease-out;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .videoContainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,43 @@
+/* CONTACT SECTION */
+#contact {
+    width: 100%;
+    background: var(--background);
+}
+
+#contact section {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    justify-content: left;
+}
+
+input,
+textarea,
+#contact button {
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    margin: 5px 0;
+    font-size: 15px;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+}
+
+input,
+textarea {
+    background: var(--tertiary);
+}
+
+#contact button {
+    background: grey;
+    width: 120px;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#contact p {
+    padding: 0;
+    margin: 0;
+}

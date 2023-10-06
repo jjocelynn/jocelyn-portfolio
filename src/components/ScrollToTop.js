@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import upArrow from "../assets/images/upArrow.png";
+import upArrow from "../assets/images/icons/upArrow.png";
 
 export default function ScrollToTop() {
   const [yPosition, setYPosition] = useState(0);

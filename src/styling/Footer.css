@@ -1,0 +1,19 @@
+/* FOOTER SECTION */
+footer {
+    background: var(--tertiary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    position: relative;
+    bottom: 0;
+    z-index: 0;
+    color: var(--primary);
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+    margin: 10px;
+}

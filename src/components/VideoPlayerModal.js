@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Ratio from "react-bootstrap/Ratio";
-import closeBtn from "../assets/images/closeButton.png";
+import closeBtn from "../assets/images/icons/closeButton.png";
+import "../styling/VideoPlayerModal.css"
 
 /**
  * Dscription

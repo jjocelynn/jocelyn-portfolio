@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { data } from "../assets/data";
 import VideoPlayerModal from "../components/VideoPlayerModal";
 import ScrollToTop from "../components/ScrollToTop";
+import "../styling/Work.css"
 
 //useState: React hook. used to manage state within functional components. store and manage data that may change over time and affect your component's rendering.
 export default function Work() {
