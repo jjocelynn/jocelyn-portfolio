@@ -43,6 +43,7 @@ export default function VideoPlayerModal({ visible, setVisible, content }) {
             onClick={handleClose}
             alt="close video button"
           />
+          
           <Ratio aspectRatio="16x9">
             <video ref={videoRef} controls>
               <source src={content} type="video/mp4" />

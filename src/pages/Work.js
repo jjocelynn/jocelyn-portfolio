@@ -46,6 +46,7 @@ export default function Work() {
                 alt={`${item.title} still`}
                 className="workImg"
                 onClick={() => onViewDemo(item)}
+                loading="lazy"
               />
             </div>
           )}
@@ -72,6 +73,7 @@ export default function Work() {
                 alt={`${item.title} still`}
                 className="workImg"
                 onClick={() => onViewDemo(item)}
+                loading="lazy"
               />
             </div>
           )}

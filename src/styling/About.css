@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    margin: 65px 0;
+    margin-top: 45px;
 }
 
 #introText,
@@ -36,23 +36,110 @@
 #introImage img {
     width: 70%;
     border-radius: 50% 50% 3% 3%;
+    box-shadow: 0 5px 20px grey;
 }
 
 #arrow {
     width: 7%;
-    margin-top: 50px;
     min-width: 40px;
+    position: relative;
+    top: 50px;
+    z-index: 4;
+}
+
+/* Wave */
+.wave {
+    position: relative;
+    width: 99vw;
+    height: 20vh;
+    overflow: hidden;
+}
+
+.air {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 1000px 150px;
+}
+
+.reflection {
+    transform: scaleY(-1);
+    position: absolute;
+    top: -35px;
+    mask-image: linear-gradient(to top, white, transparent);
+}
+
+.air.air1 {
+    animation: wave 20s linear infinite;
+    z-index: 3;
+    opacity: 0.75;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.air.air2 {
+    animation: wave2 15s linear infinite;
+    z-index: 2;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+
+.air.air3 {
+    animation: wave3 10s linear infinite;
+    z-index: 1;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+@keyframes wave {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+
+@keyframes wave3 {
+    0% {
+        background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: 1000px;
+    }
 }
 
 /* ABOUT SECTION */
 #about {
-    margin: 100px 0;
+    background-color: rgba(250,250,250,0.5);
+    z-index: 0;
+    padding: 13%;
+    border-radius: 500px 600px 700px 600px;
+    animation: bubble 20s linear infinite;
+    margin-bottom: 50px;
 }
 
 #about p {
     font-size: 20px;
     line-height: 27px;
-    color: var(--primary)
+    color: var(--quarternary);
 }
 
 @media screen and (max-width: 970px) {

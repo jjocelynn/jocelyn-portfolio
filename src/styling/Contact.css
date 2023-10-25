@@ -1,7 +1,6 @@
 /* CONTACT SECTION */
 #contact {
     width: 100%;
-    background: var(--background);
 }
 
 #contact section {
@@ -12,8 +11,7 @@
 }
 
 input,
-textarea,
-#contact button {
+textarea {
     color: white;
     border: none;
     border-radius: 3px;
@@ -28,13 +26,6 @@ textarea,
 input,
 textarea {
     background: var(--tertiary);
-}
-
-#contact button {
-    background: grey;
-    width: 120px;
-    padding: 7px;
-    margin-top: 10px;
 }
 
 #contact p {

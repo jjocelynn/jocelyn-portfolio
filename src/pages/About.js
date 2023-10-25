@@ -2,13 +2,12 @@ import React from "react";
 import profilePicture from "../assets/images/webDeveloperProfilePicture.jpeg";
 import arrow from "../assets/images/icons/down-arrow.gif";
 import ScrollToTop from "../components/ScrollToTop";
-import "../styling/About.css"
+import "../styling/About.css";
 
 export default function About() {
   const handleClick = () => {
-    const targetElement = document.getElementById("arrow");
-
-    if (targetElement) targetElement.scrollIntoView({ behavior: "smooth" });
+    const targetElement = document.getElementById("about");
+    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   return (
@@ -30,6 +29,16 @@ export default function About() {
         onClick={handleClick}
         id="arrow"
       />
+      <section class="wave">
+        <div class="air air1"></div>
+        <div class="air air2"></div>
+        <div class="air air3"></div>
+      </section>
+      <section class="wave">
+        <div class="air air1 reflection"></div>
+        <div class="air air2 reflection"></div>
+        <div class="air air3 reflection"></div>
+      </section>
       <section id="about">
         <h3>ABOUT</h3>
         <p>
@@ -49,15 +58,9 @@ export default function About() {
           <br />
           Motivated by my eagerness to learn and grow, I continuously refine my
           skills through various projects and a commitment to self-improvement.
-          Web development has become not just a profession, but a fulfilling
-          pursuit that I am wholeheartedly dedicated to. My goal is to
-          contribute my passion and expertise to building innovative web
-          solutions that captivate users and leave a lasting impact.
-          <br />
-          <br />I am excited to collaborate with like-minded professionals,
-          explore new technologies, and embrace the ever-evolving landscape of
-          web development. Together, let's push the boundaries of creativity and
-          deliver exceptional digital experiences that inspire and engage!
+          My goal is to contribute my passion and expertise to building
+          innovative web solutions that captivate users and leave a lasting
+          impact!
         </p>
       </section>
       <ScrollToTop />

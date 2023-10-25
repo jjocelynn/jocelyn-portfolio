@@ -23,21 +23,33 @@ https://github.com/gitname/react-gh-pages
 
 Icons used:
 
-<a href="https://www.flaticon.com/free-icons/graphic-design" title="graphic design icons">Graphic design icons created by Freepik - Flaticon</a>
-
-<a href="https://www.flaticon.com/free-icons/backend" title="backend icons">Backend icons created by Muhammad Ali - Flaticon</a>
-
 <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 
-<a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
-
-<a href="https://www.flaticon.com/free-icons/swipe-up" title="swipe up icons">Swipe up icons created by karthiks_18 - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/user-interface" title="user interface icons">User interface icons created by gariebaldy - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/open-menu" title="open menu icons">Open menu icons created by Handicon - Flaticon</a>
 
 <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by icon wind - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Pixel perfect - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/responsive-design" title="responsive design icons">Responsive design icons created by Flat Icons - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/api" title="api icons">Api icons created by fzyn - Flaticon</a>
+
+Animated wave effect: https://alvarotrigo.com/blog/animated-backgrounds-css/
+
+floating stars effect: https://codepen.io/alexnorrman/pen/YvzVPX
 
 ## License
 

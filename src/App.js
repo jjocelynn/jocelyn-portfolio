@@ -5,9 +5,10 @@ import Work from "../src/pages/Work";
 import Contact from "../src/pages/Contact";
 import Resume from "../src/pages/Resume";
 import Footer from "../src/components/Footer";
+// import StarsBg from "./components/StarsBg";
 
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("intro");
+  const [currentPage, setCurrentPage] = useState("about");
 
   const renderPage = () => {
     if (currentPage === "intro") {
@@ -31,6 +32,7 @@ export default function App() {
     <>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <section id="pageBody">{renderPage()}</section>
+      {/* <StarsBg /> */}
       <Footer />
     </>
   );
