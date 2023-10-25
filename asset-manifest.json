@@ -1,29 +1,35 @@
 {
   "files": {
-    "main.css": "/jocelyn-portfolio/static/css/main.d89657ec.css",
-    "main.js": "/jocelyn-portfolio/static/js/main.f216baa2.js",
+    "main.css": "/jocelyn-portfolio/static/css/main.a66ecb59.css",
+    "main.js": "/jocelyn-portfolio/static/js/main.ebeaa4df.js",
     "static/media/Codefolio-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/Codefolio-Demo-Compressed.24db874081764c4834c9.mp4",
     "static/media/JDT-Demo-Compressed.mp4": "/jocelyn-portfolio/static/media/JDT-Demo-Compressed.882f309af3d9f7a7ca1e.mp4",
+    "static/media/node.png": "/jocelyn-portfolio/static/media/node.e1d9233897fbe03fda7b.png",
     "static/media/webDeveloperProfilePicture.jpeg": "/jocelyn-portfolio/static/media/webDeveloperProfilePicture.fadf5ce3cb08f3915da7.jpeg",
     "static/media/codefolio.jpg": "/jocelyn-portfolio/static/media/codefolio.8e4e1f8dd45acf13b319.jpg",
+    "static/media/graphQl.png": "/jocelyn-portfolio/static/media/graphQl.8e996f79ccce40047950.png",
+    "static/media/ExpressJS.png": "/jocelyn-portfolio/static/media/ExpressJS.6a3e055a6226b08114ef.png",
     "static/media/JDT-Events.jpg": "/jocelyn-portfolio/static/media/JDT-Events.703d2327bbcfb5896d12.jpg",
     "static/media/Work-Day-Scheduler.png": "/jocelyn-portfolio/static/media/Work-Day-Scheduler.70f19a1addb34afac5b3.png",
     "static/media/WikiGO-landing-page.jpg": "/jocelyn-portfolio/static/media/WikiGO-landing-page.01c608f540bb480a1bd9.jpg",
     "static/media/weather-dashboard.jpg": "/jocelyn-portfolio/static/media/weather-dashboard.473f2a42f22f1a71ccae.jpg",
-    "static/media/JocelynChiu_Resume2023.pdf": "/jocelyn-portfolio/static/media/JocelynChiu_Resume2023.37d1c555d3f075d81efc.pdf",
+    "static/media/JocelynChiu_Resume2023.pdf": "/jocelyn-portfolio/static/media/JocelynChiu_Resume2023.641a51aa0398e41f7ded.pdf",
+    "static/media/mongo.png": "/jocelyn-portfolio/static/media/mongo.679c37e771afc52a7e31.png",
+    "static/media/mySql.png": "/jocelyn-portfolio/static/media/mySql.5abe7b253ecabe614140.png",
     "static/media/resumeIcon.PNG": "/jocelyn-portfolio/static/media/resumeIcon.f4b282c63d90ae705e84.PNG",
-    "static/media/frontendIcon.PNG": "/jocelyn-portfolio/static/media/frontendIcon.177c8fe6f648c25416e1.PNG",
-    "static/media/backendIcon.PNG": "/jocelyn-portfolio/static/media/backendIcon.8b0e9355348ef792f3f2.PNG",
-    "static/media/upArrow.png": "/jocelyn-portfolio/static/media/upArrow.75950f1b9ecc824bf601.png",
     "static/media/github.png": "/jocelyn-portfolio/static/media/github.56a056ebec6920083641.png",
+    "static/media/upArrow.png": "/jocelyn-portfolio/static/media/upArrow.5dc1cf55b3096a2ceebe.png",
+    "static/media/react.png": "/jocelyn-portfolio/static/media/react.141f1c5edaf4d988e0c4.png",
+    "static/media/responsiveDesign.png": "/jocelyn-portfolio/static/media/responsiveDesign.e317941ffd251c731a30.png",
     "static/media/down-arrow.gif": "/jocelyn-portfolio/static/media/down-arrow.561bd9b3422f727769f4.gif",
+    "static/media/html.png": "/jocelyn-portfolio/static/media/html.3b4c3cd406d11e70320f.png",
     "static/media/linkedin.png": "/jocelyn-portfolio/static/media/linkedin.d4fb8835f520a8dc396a.png",
     "index.html": "/jocelyn-portfolio/index.html",
-    "main.d89657ec.css.map": "/jocelyn-portfolio/static/css/main.d89657ec.css.map",
-    "main.f216baa2.js.map": "/jocelyn-portfolio/static/js/main.f216baa2.js.map"
+    "main.a66ecb59.css.map": "/jocelyn-portfolio/static/css/main.a66ecb59.css.map",
+    "main.ebeaa4df.js.map": "/jocelyn-portfolio/static/js/main.ebeaa4df.js.map"
   },
   "entrypoints": [
-    "static/css/main.d89657ec.css",
-    "static/js/main.f216baa2.js"
+    "static/css/main.a66ecb59.css",
+    "static/js/main.ebeaa4df.js"
   ]
 }
